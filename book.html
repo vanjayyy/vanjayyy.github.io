@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+    <header>
+		<a href="mainpage.html" class="logo">Drive Your Dreams</a>
+
+		<ul class="navbar">
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="history.html">History</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+			<li><a href="find us.html">Find Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+		</ul>
+		<a href="book.html" class="book">Book Ride</a>
+	</header>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="services">
+        <center><h1 class="title"><b>Book a Ride!</b></h1></center>
+      <div class="cars">
+        
+          <h2 class="title">Kindly Fill Up The Needed Information</h2> <hr>
+            <br>
+            <div class="form-container">
+                <center><form>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                  <br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  <br>
+                  <br>
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                  <br>
+                  <br>
+                  <label for="pickup-date">Pickup Date:</label>
+                  <input type="date" id="pickup-date" name="pickup-date" required>
+                  <br>
+                  <label for="pickup-time">Pickup Time:</label>
+                  <input type="time" id="pickup-time" name="pickup-time" required>
+                  <br>
+                  <label for="return-date">Return Date:</label>
+                  <input type="date" id="return-date" name="return-date" required>
+                  <br>
+                  <label for="return-time">Return Time:</label>
+                  <input type="time" id="return-time" name="return-time" required>
+                  <br>
+                  <label for="car-type">Vehicle to be booked:</label>
+                  <select id="car-type" name="car-type" required>
+                    <option value="" disabled selected>Select Vehicle</option>
+                    <option value="Toyota FJ Cruise">Toyota FJ Cruise</option>
+                    <option value="Ford Ranger">Ford Ranger</option>
+                    <option value="Hyundai Tucson">Hyundai Tucson</option>
+                    <option value="Volvo XC60">Volvo XC60</option>
+                    <option value="Toyota AE86">Toyota AE86</option>
+                    <option value="GMC Hummer EV">GMC Hummer EV</option>
+                    <option value="Ford EcoSport">Ford EcoSport</option>
+                    <option value="Kia Soul">Kia Soul</option>
+                    <option value="Chevrolet Equinox">Chevrolet Equinox</option>
+                    <option value="Subaru Crosstrek">Subaru Crosstrek</option>
+                  </select>
+                  <input type="submit" value="Book Now">
+                </form></center>
+              </div>
+      </div>
+</body>
+</html>
